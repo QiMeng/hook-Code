@@ -1,0 +1,9 @@
+Package: com.iosre.iosretargetapp
+Name: iOSRETargetApp
+Depends: 
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome application!
+Maintainer: qimeng
+Author: qimeng
+Section: Utilities
