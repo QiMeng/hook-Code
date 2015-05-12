@@ -1,18 +1,15 @@
-
+THEOS_DEVICE_IP = 192.168.2.5
 ARCHS = armv7 arm64
 TARGET = iphone:latest:7.0
 
-
 include theos/makefiles/common.mk
 
-TWEAK_NAME = iOSREGreetings
-iOSREGreetings_FILES = Tweak.xm
+TWEAK_NAME = screencolor
+screencolor_FILES = Tweak.xm
 
-iOSREGreetings_FRAMEWORKS = UIKit Foundation
+screencolor_FRAMEWORKS = UIKit Foundation
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
 	install.exec "killall -9 SpringBoard"
-SUBPROJECTS += iosscreen
-include $(THEOS_MAKE_PATH)/aggregate.mk

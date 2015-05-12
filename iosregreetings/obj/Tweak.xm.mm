@@ -1,3 +1,4 @@
+#line 1 "Tweak.xm"
 #import <notify.h>
 
 #define ACCESSBILITY @"/var/mobile/Library/Preferences/com.apple.Accessibility.plist"
