@@ -1,5 +1,5 @@
 # hook-Code
-## CharacountForNotes
+#### CharacountForNotes
 ```javascript
   ps -e | grep /Applications/
   killall <APPNAME>
